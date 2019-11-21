@@ -48,6 +48,7 @@ class SignUp extends React.Component {
     }
   };
 
+  //handle input fields changed
   handleChange = event => {
     const { name, value } = event.target;
 
